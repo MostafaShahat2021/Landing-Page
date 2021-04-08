@@ -27,6 +27,7 @@
 
 
 
+
 /**
  * End Helper Functions
  * Begin Main Functions
@@ -53,5 +54,9 @@
 // Scroll to section on link click
 
 // Set sections as active
-
+document.addEventListener("click", function(){
+    const mainheading = document.querySelector("h1");
+    mainheading.style.color="red";
+    console.log("CLICK");
+})
 
